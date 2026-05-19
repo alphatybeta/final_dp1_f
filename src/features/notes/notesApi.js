@@ -4,7 +4,7 @@ export const notesApi = createApi({
   reducerPath: "notesApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api/",
+    baseUrl: "https://finaldp1-production.up.railway.app/api/",
   }),
 
   tagTypes: ["Note"],
